@@ -42,17 +42,23 @@ class _InDataScreenState extends State<InDataScreen> {
   final String alertDialog = "Warning";
   final String okayMessage = "Okay";
   final String selectLocationFirst = "Please select location first<<";
-  final String tokenAddControl = '6b0e730c83bbabc3d5a943620375114d';
-  final String routeInclute = 'http://192.168.111.69:8083/fetch/include';
+  //Change for your own API Key
+  final String tokenAddControl = 'testkey';
+  //Change for your API route
+  final String routeInclute = 'http://1.1.1.1:1111/fetch/include';
   final String includeHasBeenGood = 'Material has been included successfully';
-  final String tokenCount = '7c5e723c65bmkqj3d5a943089389414u';
+   //Change for your own API Key
+  final String tokenCount = 'testkey';
+  //Change for your API route
   final String routeCountControls =
-      'http://192.168.111.69:8083/fetch/countcontrols';
+      'http://1.1.1.1:1111/fetch/countcontrols';
   final String countControlsFetch = 'Count controls fetching';
   final String countWord = 'count';
   final String typeJason = 'application/json';
-  final String tokenFetchLoc = '6c0e730c65bbakj3d5a943689365114e';
-  final String locationRoute = 'http://192.168.111.69:8083/fetch/locations';
+  //Change for your own API Key
+  final String tokenFetchLoc = 'testkey';
+  //Change for your API route
+  final String locationRoute = 'http://1.1.1.1:1111/fetch/locations';
   final String titleScreen = 'InData Screen';
   final String selectLoc = 'Select location';
   final String locationname = 'locationName';
