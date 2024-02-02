@@ -42,11 +42,15 @@ class _CheckLabelsScreenState extends State<CheckLabelsScreen> {
   final FocusNode _partNumFocusNode = FocusNode();
   final String warningText = "Warning";
   final String okayText = "Okay";
-  final String apiUrl = 'http://192.168.111.69:8083/fetch/fetch';
+  
+  //You need change for your own link from API route
+  final String apiUrl = 'http://1.1.1.1:1111/route/route';
+  
   final String scanTypeControl = 'Please scan / type ControlNumer>>';
   final String scan1partNumber = 'Please scan/ type almost 1 PartNumber>>';
   final String typeJason = 'application/json';
-  final String tokenFetchLoc = 'm0bmfbhfxihknx14q9gem2w9f7apacx9';
+  //you need add your value code for this case is Autorizathion code
+  final String tokenFetchLoc = 'change here ';
   final String pnvaluated = 'pnvaluated';
   final String pnreturned = 'pnreturned';
   final String validationSucc = 'Validation successful';
