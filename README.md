@@ -9,6 +9,7 @@
   > Locate, relocate, ship, delete inventory pieces (in this case are boxes & pallets)
   > Front end App with a minimun resourses consumming
   > Back end & almos part of logical programming are on API ASP.NET
+  > Alerts with sound & vibration
 
 
 
