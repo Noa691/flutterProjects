@@ -180,7 +180,8 @@ class _LoginScreen extends State<loginScreen> {
   }
 
   void tryLogin() async {
-    String apiUrl = 'http://192.168.111.69:8083/fetch/login';
+    //change for your own route API
+    String apiUrl = 'http://1.1.1.1:1111/fetch/login';
 
     // Obtener los valores de los controladores
     String nameUser = userController.text;
@@ -204,7 +205,8 @@ class _LoginScreen extends State<loginScreen> {
         body: json.encode(data),
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'akbmk319irfyr1gxrarso3orcunlgy78',
+          //change for your own API Key
+          'Authorization': 'testkey',
         },
       );
 
